@@ -1,10 +1,11 @@
 import React from 'react';
+import Court from '../components/court'
 
 const HomePage = () => (
   <div>
-    <h1>
-    HomePage
-    </h1>
+    <Court 
+      name="Hello"
+    />
   </div>
 );
 
